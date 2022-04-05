@@ -11435,6 +11435,11 @@ section.resume-section .resume-section-content {
   animation-iteration-count: infinite;
   animation-delay: 10s;
 }
+@media (max-width: 900px){
+  .gallery-photo{
+    height: 280px;
+  }
+}
 @keyframes bgchange {
   0% {
     background-image: url(https://www.sololearn.com/Certificate/1014-21705020/jpg/);
