@@ -11423,3 +11423,35 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.gallery-photo{
+  display: flex;
+  justify-content: center;
+  background-image: url(https://www.sololearn.com/Certificate/1014-21705020/jpg/);
+  height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: bgchange;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+}
+@keyframes bgchange {
+  0% {
+    background-image: url(https://www.sololearn.com/Certificate/1014-21705020/jpg/);
+  }
+  20% {
+    background-image: url(https://www.sololearn.com/Certificate/1162-21705020/jpg/)
+  }
+  40% {
+    background-image: url(https://www.sololearn.com/certificates/course/en/21705020/1024/landscape/png)
+  }
+  60% {
+    background-image: url(https://www.sololearn.com/Certificate/1023-21705020/jpg/)
+  }
+  80% {
+    background-image: url(https://www.sololearn.com/Certificate/1097-21705020/jpg/);
+  }
+  100% {
+    background-image: url(https://www.sololearn.com/Certificate/1082-21705020/jpg/)
+  }
+}
